@@ -6,7 +6,7 @@ import streamlit as st
 from scipy import stats
 
 # Cargar archivo Excel
-df = pd.read_excel("Calificaciones 1 y 2 parcial Plantel Xonacatlán.xlsx")
+df = pd.read_excel("Calificaciones_Xonacatlan.xlsx")
 # Configurar Streamlit
 st.set_page_config(layout="wide", page_title="Análisis de Calificaciones")
 st.title("📊 Análisis de Calificaciones por Asignatura")
