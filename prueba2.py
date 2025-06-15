@@ -11,7 +11,7 @@ import re                    # Expresiones regulares para manipular y limpiar te
 from PIL import Image        # Biblioteca Pillow para abrir y manejar imágenes (dimensiones, formatos)
 
 # Cargar archivo Excel
-df = pd.read_excel("Calificaciones_Xonacatlan.xlsx")
+df = pd.read_excel("calificaciones_xonacatlan.xlsx")
 # Configurar Streamlit
 st.set_page_config(layout="wide", page_title="Análisis de Calificaciones")
 st.title("📊 Análisis de Calificaciones por Asignatura")
